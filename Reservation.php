@@ -23,8 +23,8 @@ $message .= "Message: " . $_POST['message-text'] . " \r\n";
 
 $message .= "Reservation request date: " . date('d/m/Y', time());
 
-$para = "contacto@sistecint.com";
-$asunto = 'Rervertation from web site Avantika sxm';
+$para = "reservations@avantikasxm.com";
+$asunto = 'Reservation Avantika sxm';
 
 
 mail($para, $asunto, utf8_decode($message), $header);

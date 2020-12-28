@@ -13,8 +13,8 @@ $message .= "Email " . $_POST['mail']. " \r\n";
 $message .= "Message: " . $_POST['message-text'] . " \r\n";
 $message .= "date message: " . date('d/m/Y', time());
 
-$para = "contacto@sistecint.com";
-$asunto = 'contact from web site Avantika sxm';
+$para = "reservations@avantikasxm.com";
+$asunto = 'Contact web Avantika sxm';
 
 
 mail($para, $asunto, utf8_decode($message), $header);
