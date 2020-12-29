@@ -43,7 +43,7 @@ mail($para, $asunto, utf8_decode($message), $header);
 
 <script type='text/javascript'>
 
-document.write('<a href="https://www.avantikasxm.com/">vuelve atras</a>');
+document.write('<a href="https://www.avantikasxm.com/">go Back</a>');
 
 </script>
 
